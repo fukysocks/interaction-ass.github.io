@@ -16,7 +16,7 @@ Pts.quickStart( "#bg-canvas", "#666" );
   const nums = 20;
 
   function getColors() {
-    let cs = [[0, 255, 50],[255, 255, 50],[255, 0, 50],[255, 50, 255],[50, 0, 255],[50, 255, 255]];
+    let cs = [[199, 240, 189],[255, 119, 51],[171, 155, 155],[56, 29, 42]];
     let a = [...cs[Math.floor(Math.random() * cs.length)], 0.7];
     let b = [...cs[Math.floor(Math.random() * cs.length)], 0.7];
     let c = b.slice();
