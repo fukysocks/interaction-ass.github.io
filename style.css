@@ -19,7 +19,7 @@ body {
 }
 
 #banner {
-background-colour: #AB739B;
+background-color: #AB739B;
   text-align: center;
   height: 200px;
   width: 100%;
@@ -42,7 +42,7 @@ background-colour: #AB739B;
 }
 
 nav {
-  background-colour: #F5F5F5;
+  background-color: #F5F5F5;
   overflow: hidden;
   display: flex;
   justify-content: center;
