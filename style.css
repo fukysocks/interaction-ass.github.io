@@ -68,13 +68,15 @@ nav img {
 </nav>
 </div> */
 
-main {
- display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minmax value to your desired width */
-      gap: 20px; /* Spacing between cards */
-      padding: 20px;
-      justify-content: center; /* Centering the grid horizontally */
+
+ main {
+  margin-top: 120px;
+  diplay: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
+
 
 .card {
   background-color: #000;
