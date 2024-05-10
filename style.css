@@ -70,7 +70,7 @@ nav img {
 
 main {
   display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust the minmax value to your desired width */
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minmax value to your desired width */
       gap: 20px; /* Spacing between cards */
       padding: 60px;
       justify-content: center; /* Centering the grid horizontally */
