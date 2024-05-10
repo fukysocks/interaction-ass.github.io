@@ -69,11 +69,11 @@ nav img {
 </div> */
 
 main {
-  margin-top: 120px;
   display: grid;
-      grid-template-columns: repeat(3, 1fr); /* Three columns */
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minmax value to your desired width */
       gap: 20px; /* Spacing between cards */
       padding: 20px;
+      justify-content: center; /* Centering the grid horizontally */
 }
 
 .card {
