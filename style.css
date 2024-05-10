@@ -69,7 +69,7 @@ nav img {
 </div> */
 
 main {
-  display: grid;
+ display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minmax value to your desired width */
       gap: 20px; /* Spacing between cards */
       padding: 20px;
