@@ -22,9 +22,6 @@
     position: relative;
     perspective: 1000px;
    }
-  .card img {
-   width: 100%;
-  }
  
    .card-inner {
     width: 100%;
@@ -38,8 +35,8 @@
   }
 
   /* Style for the front face */
-  .card-front,
-  .card-back {
+  .card .card-front,
+  .card .card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -61,8 +58,6 @@
     transform: rotateY(180deg);
   }
   
- 
-   
   </style>
 </head>
   <body>
