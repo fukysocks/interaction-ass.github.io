@@ -71,7 +71,7 @@ nav img {
 
  main {
   margin-top: 120px;
-  diplay: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
