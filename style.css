@@ -1,6 +1,6 @@
 *{
   font-family: "Courier Prime", monospace;
-  block-size: border-box;
+  block-sizing: border-box;
   margin: 0;
   padding: 0;
 }
