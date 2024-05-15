@@ -16,26 +16,118 @@
      justify-content: center; /* Centering the grid horizontally */
       margin-left: 100px; /* Adjust the margin to move the boxes slightly to the right */
     }
+   .card {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+   }
  
-   
+   .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Style for the front face */
+  .card .card-front,
+  .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  /* Style for the front face (image) */
+  .card .card-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  /* Style for the back face (image) */
+  .card .card-back img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transform: rotateY(180deg);
+  }
+  
   </style>
 </head>
   <body>
   <header>
-    <h1>Fruit and Herbal Tisanes</h1>
+ <h1><a href="index.html">Fruit and Herbal Tisanes</a></h1>
   </header>
 
    <main>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    
+    <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-01.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-01.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-02.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-02.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-03.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-03.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-04.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-04.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-05.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-05.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     <div class="card">
+     <div class="card-inner">
+      <div class="card-back"> 
+       <img src="FruitB-06.png" alt="Back Image 1">
+      </div>
+      <div class="card-front">
+       <img src="FruitA-06.png" alt="front image1"> 
+    </div>
+     </div>
+    </div>  
+     
+
    </main>
 
 <body>
