@@ -18,7 +18,9 @@ header {
 body {
   margin-top: 80px;
 }
-
+p {
+  margin-bottom: 40px; /* Adjust the value as needed */
+        }
 #banner {
 background-color: #AB739B;
   text-align: center;
